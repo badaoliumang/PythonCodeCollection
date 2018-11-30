@@ -33,7 +33,7 @@ def send_news():
     except:
  
         # 你的微信名称，不是微信帐号。
-        my_friend = bot.friends().search('别来无恙')[0]
+        my_friend = bot.friends().search('自己的微信名称')[0]
         my_friend.send(u"今天消息发送失败了")
  
 if __name__ == "__main__":
